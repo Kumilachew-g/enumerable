@@ -1,25 +1,31 @@
 module MyEnumerable
-  def all?(&block)
-    result = true
-    each do |value|
-      result = false unless block.call(value)
+  def all?
+    return unless block_given?
+
+    response = false
+    @list.each do |n|
+      response = true if yield(n)
     end
-    result
+    response
   end
 
-  def any?(&block)
-    result = false
-    each do |value|
-      result = true if block.call(value)
+  def any?
+    return unless block_given?
+
+    any = false
+    @list.each do |n|
+      any = true if yield(n)
     end
-    result
+    any
   end
 
-  def filter(&block)
-    result = []
-    each do |value|
-      result << value if block.call(value)
+  def filter?
+    return unless block_given?
+
+    numbers = []
+    @list.each do |n|
+      numbers.push(n) if yield(n)
     end
-    result
+    numbers
   end
 end
