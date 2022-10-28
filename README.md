@@ -1,9 +1,21 @@
-<div align="center">
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"/>  <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white"/> </div>
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Enumerable Practice in Ruby
+# Enumerable
 
-Learn how to use a module inside a class, re-implementation of enumeration methodes
+> An app built with Ruby. It has a 'MyEnumerable' module that is included in 'MyList' class with filter, all and any feature methods.
+
+## Built With
+
+- Ruby
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps:
+
+1- Click on the top right green **`code`** button.<br>
+2- On the dropdown menu, choose the **`download zip`** button.<br>
+3- After download, extract the zip file and you have the project running on your machine.<br>
+4- You can also clone the project using the **`git clone`** command.<br>
 
 ## Authors
 
@@ -18,7 +30,6 @@ Learn how to use a module inside a class, re-implementation of enumeration metho
 - GitHub: [@githubhandle](https://github.com/Kumilachew-g/)
 - Twitter: [@twitterhandle](https://twitter.com/Getie_Haddis)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kumilachew-getie-0356bb157/)
-
 
 ## 🤝 Contributing
 
@@ -35,7 +46,6 @@ Give a ⭐️ if you like this project!
 - Inspiration 💘
 - Microverse program ⚡
 - My standup team 😍
-
 
 ## Show your support
 
